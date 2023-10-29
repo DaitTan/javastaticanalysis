@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2023-10-28T20:43:11.182">
+<file name="C:\Users\tanma\Downloads\vendingmachine_1\vendingmachine\src\main\java\com\asspart1\vendingmachine\StaticAnalysis.java">
+<violation beginline="22" endline="27" begincolumn="13" endcolumn="38" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.asspart1.vendingmachine" class="StaticAnalysis" method="calculateCost" variable="cost" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'cost' (lines '22'-'27').
+</violation>
+<violation beginline="22" endline="31" begincolumn="13" endcolumn="34" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.asspart1.vendingmachine" class="StaticAnalysis" method="calculateCost" variable="cost" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'cost' (lines '22'-'31').
+</violation>
+<violation beginline="23" endline="35" begincolumn="13" endcolumn="72" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.asspart1.vendingmachine" class="StaticAnalysis" method="calculateCost" variable="output" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'output' (lines '23'-'35').
+</violation>
+<violation beginline="23" endline="37" begincolumn="13" endcolumn="82" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.asspart1.vendingmachine" class="StaticAnalysis" method="calculateCost" variable="output" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'output' (lines '23'-'37').
+</violation>
+<violation beginline="25" endline="25" begincolumn="23" endcolumn="35" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.asspart1.vendingmachine" class="StaticAnalysis" method="calculateCost" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="25" endline="25" begincolumn="12" endcolumn="35" rule="CompareObjectsWithEquals" ruleset="Error Prone" package="com.asspart1.vendingmachine" class="StaticAnalysis" method="calculateCost" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#compareobjectswithequals" priority="3">
+Use equals() to compare object references.
+</violation>
+<violation beginline="25" endline="25" begincolumn="12" endcolumn="35" rule="UseEqualsToCompareStrings" ruleset="Error Prone" package="com.asspart1.vendingmachine" class="StaticAnalysis" method="calculateCost" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#useequalstocomparestrings" priority="3">
+Use equals() to compare strings instead of '==' or '!='
+</violation>
+<violation beginline="34" endline="34" begincolumn="19" endcolumn="20" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.asspart1.vendingmachine" class="StaticAnalysis" method="calculateCost" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+</file>
+</pmd>

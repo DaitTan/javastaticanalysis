@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.asspart1.vendingmachine.VendingMachineApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-29T03:06:08" hostname="LEGION" time="0.88">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.asspart1.vendingmachine.VendingMachineApplicationTests" time="0.88"/>
+  <system-out><![CDATA[20:06:07.020 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.asspart1.vendingmachine.VendingMachineApplicationTests]: VendingMachineApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:06:07.132 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.asspart1.vendingmachine.VendingMachineApplication for test class com.asspart1.vendingmachine.VendingMachineApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-10-28T20:06:07.615-07:00  INFO 42052 --- [    Test worker] c.a.v.VendingMachineApplicationTests     : Starting VendingMachineApplicationTests using Java 19.0.2 with PID 42052 (started by tanma in C:\Users\tanma\Downloads\vendingmachine_1\vendingmachine)
+2023-10-28T20:06:07.617-07:00  INFO 42052 --- [    Test worker] c.a.v.VendingMachineApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2023-10-28T20:06:08.147-07:00  INFO 42052 --- [    Test worker] c.a.v.VendingMachineApplicationTests     : Started VendingMachineApplicationTests in 0.802 seconds (process running for 2.192)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
